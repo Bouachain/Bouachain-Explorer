@@ -1,0 +1,74 @@
+{
+    "chain_name": "bouachain",
+    "api": [
+        "https://lcd.bouachain.com"
+    ],
+    "rpc": [
+        "https://rpc.bouachain.com"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.50.7",
+    "coin_type": "118",
+    "min_tx_fee": "0.000025",
+    "addr_prefix": "boua",
+    "logo": "/logos/bouacoin.svg",
+    "theme_color": "#161723",
+    "assets": [
+        {
+            "base": "bouacoin",
+            "symbol": "BOUA",
+            "exponent": "8",
+            "coingecko_id": "bouacoin",
+            "logo": "/logos/bouacoin.svg"
+        },
+        {
+            "base": "uusdc",
+            "symbol": "bouaUSDC",
+            "exponent": "8",
+            "coingecko_id": "usd-coin",
+            "logo": "/logos/usdc.svg"
+        },
+        {
+            "base": "uusdt",
+            "symbol": "bouaUSDT",
+            "exponent": "8",
+            "coingecko_id": "tether",
+            "logo": "/logos/usdt.svg"
+        },
+        {
+            "base": "dai-wei",
+            "symbol": "bouaDAI",
+            "exponent": "18",
+            "coingecko_id": "dai",
+            "logo": "/logos/dai.svg"
+        },
+        {
+            "base": "weth-wei",
+            "symbol": "bouaWETH",
+            "exponent": "18",
+            "coingecko_id": "ethereum",
+            "logo": "/logos/weth.svg"
+        },
+        {
+            "base": "wmatic-wei",
+            "symbol": "bouaWMATIC",
+            "exponent": "18",
+            "coingecko_id": "matic-network",
+            "logo": "/logos/wmatic.svg"
+        },
+        {
+            "base": "wavax-wei",
+            "symbol": "bouaWAVAX",
+            "exponent": "18",
+            "coingecko_id": "avalanche-2",
+            "logo": "/logos/wavax.svg"
+        },
+        {
+            "base": "dot-planck",
+            "symbol": "bouaDOT",
+            "exponent": "10",
+            "coingecko_id": "polkadot",
+            "logo": "/logos/dot.svg"
+        }
+    ]
+}
