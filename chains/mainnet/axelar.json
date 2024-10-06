@@ -12,7 +12,7 @@
     "min_tx_fee": "800",
     "addr_prefix": "axelar",
     "logo": "/logos/axelar.svg",
-    "theme_color": "#161723",
+    "theme_color": "#000000",
     "assets": [
         {
             "base": "uaxl",

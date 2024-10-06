@@ -28,7 +28,7 @@ const chains = computed(() => {
 });
 
 const featured = computed(() => {
-  const names = ["cosmos", "osmosis", "akash", "celestia", "evmos", "injective", "dydx", "noble"];
+  const names = ["cosmos", "osmosis", "bouachain"];
   return chains.value
     .filter(x => names.includes(x.chainName))
     .sort((a, b)=> (names.indexOf(a.chainName) - names.indexOf(b.chainName)))
@@ -77,10 +77,10 @@ const chainStore = useBlockchain()
       <progress class="progress progress-info w-80 h-1"></progress>
     </div>
 
-    <div v-if="featured.length>0" class="text-center text-base mt-6 text-primary">
+    <!-- <div v-if="featured.length>0" class="text-center text-base mt-6 text-primary">
       <h2 class="mb-6"> Featured Blockchains 🔥 </h2>
-    </div>
-
+    </div> -->
+<!-- 
     <div v-if="featured.length>0"
       class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5"
     >
@@ -89,12 +89,12 @@ const chainStore = useBlockchain()
         :key="index"
         :name="chain.chainName"
       />
-    </div>
+    </div> -->
 
     <AdBanner id="home-banner-ad" unit="banner" width="970px" height="90px" />
 
     <div class="text-center text-base mt-6 text-primary">
-      <h2 class="mb-6">{{ $t('pages.description') }}</h2>
+      <!-- <h2 class="mb-6">{{ $t('pages.description') }}</h2> -->
     </div>
 
     <div class="flex items-center rounded-lg bg-base-100  border border-gray-200 dark:border-gray-700 mt-10">
@@ -117,6 +117,6 @@ const chainStore = useBlockchain()
 
 <style scoped>
  .logo path{
-  fill: #171d30;
+  fill: #000000;
 }
 </style>@/components/ad/ad
