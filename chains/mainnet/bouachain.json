@@ -11,7 +11,7 @@
     "coin_type": "118",
     "min_tx_fee": "0.000025",
     "addr_prefix": "boua",
-    "logo": "http://localhost:5173/src/assets/boua.png",
+    "logo": "https://bouascan.com/src/assets/boua.png",
     "theme_color": "#000000",
     "assets": [
         {

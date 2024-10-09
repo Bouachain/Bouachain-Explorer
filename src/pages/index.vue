@@ -40,7 +40,7 @@ const chainStore = useBlockchain()
 <template>
   <div class="">
     <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
-      <div class="w-16 rounded-full">
+      <!-- <div class="w-16 rounded-full">
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 150.000000 132.000000"
           preserveAspectRatio="xMidYMid meet">
@@ -60,7 +60,7 @@ const chainStore = useBlockchain()
             -1 4 -43 78 -93 165 l-90 157 -187 0 c-104 0 -188 -2 -188 -5z"/>
           </g>
         </svg>
-      </div>
+      </div> -->
       <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
       </h1>
