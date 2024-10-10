@@ -15,7 +15,7 @@
     "theme_color": "#000000",
     "assets": [
         {
-            "base": "bouacoin",
+            "base": "ubouacoin",
             "symbol": "BOUA",
             "exponent": "8",
             "coingecko_id": "bouacoin",
