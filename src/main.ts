@@ -11,7 +11,9 @@ import { useBaseStore } from './stores/useBaseStore';
 
 // Create vue app
 const app = createApp(App);
-// Use plugins
+// Use plugin
+
+
 app.use(i18n);
 app.use(createPinia());
 app.use(router);
